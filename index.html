@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Découvre la Yxz Team, ses personnages et rejoins une équipe qui avance ensemble." />
+  <title>Yxz Team — Ensemble, plus loin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#accueil" aria-label="Accueil Yxz Team"><span>Y</span>XZ <small>TEAM</small></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="#personnages">Personnages</a>
+      <a href="#rejoindre">Rejoindre</a>
+      <a class="nav-cta" href="#rejoindre">Candidater <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> L'équipe qui fait la différence</p>
+        <h1>Écris ta<br /><em>légende.</em></h1>
+        <p class="hero-text">La Yxz Team rassemble des personnalités uniques, des créateurs passionnés et des joueurs prêts à repousser leurs limites.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#rejoindre">Rejoins l'aventure <span>→</span></a>
+          <a class="button button-ghost" href="#personnages">Découvrir la team <span>↓</span></a>
+        </div>
+        <div class="stats"><div><strong>24</strong><span>Membres</span></div><div><strong>12K+</strong><span>Communauté</span></div><div><strong>∞</strong><span>Ambition</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Personnage mascotte de la Yxz Team">
+        <div class="sun"></div><div class="ring ring-one"></div><div class="ring ring-two"></div>
+        <div class="character main-character"><div class="hood"></div><div class="hair"></div><div class="face"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="mouth"></i></div><div class="body"><b>Y</b></div></div>
+        <div class="floating-card card-top">⚡ <span>ÉNERGIE<br /><b>100%</b></span></div><div class="floating-card card-bottom">★ <span>PLAY<br /><b>TOGETHER</b></span></div>
+      </div>
+    </section>
+
+    <section id="personnages" class="characters section-wrap">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> Les visages de la team</p><h2>Des styles.<br /><em>Une équipe.</em></h2></div><p>Chaque membre apporte sa propre force. Trouve le personnage qui te ressemble.</p></div>
+      <div class="character-grid">
+        <article class="character-card orange"><div class="avatar"><div class="avatar-head"><span class="hair-shape"></span><span class="face-details"></span></div><span class="avatar-body">⚡</span></div><div class="card-info"><span class="role">LE LEADER</span><h3>Axel</h3><p>Stratège & capitaine</p><span class="arrow">↗</span></div></article>
+        <article class="character-card violet"><div class="avatar"><div class="avatar-head"><span class="hair-shape"></span><span class="face-details"></span></div><span class="avatar-body">✦</span></div><div class="card-info"><span class="role">LA CRÉATIVE</span><h3>Yuna</h3><p>Design & imagination</p><span class="arrow">↗</span></div></article>
+        <article class="character-card blue"><div class="avatar"><div class="avatar-head"><span class="hair-shape"></span><span class="face-details"></span></div><span class="avatar-body">★</span></div><div class="card-info"><span class="role">LE SPEEDRUNNER</span><h3>Ryo</h3><p>Performance & défis</p><span class="arrow">↗</span></div></article>
+        <article class="character-card pink"><div class="avatar"><div class="avatar-head"><span class="hair-shape"></span><span class="face-details"></span></div><span class="avatar-body">♥</span></div><div class="card-info"><span class="role">LA CONNECTÉE</span><h3>Mia</h3><p>Communauté & vibes</p><span class="arrow">↗</span></div></article>
+      </div>
+    </section>
+
+    <section id="rejoindre" class="join section-wrap"><div class="join-panel"><div><p class="eyebrow"><span></span> À toi de jouer</p><h2>Prêt à écrire<br />la suite ?</h2><p>Tu as du talent, de l'énergie et l'envie de construire quelque chose de grand ? Ta place est peut-être ici.</p></div><form id="join-form"><label for="name">Ton pseudo</label><input id="name" name="name" type="text" placeholder="ex. Yxz_Nova" required /><label for="role">Ton profil</label><select id="role" name="role" required><option value="">Choisis ton rôle</option><option>Joueur / joueuse</option><option>Créateur / créatrice</option><option>Streamer / streameuse</option><option>Autre talent</option></select><label for="message">Pourquoi la Yxz Team ?</label><textarea id="message" name="message" rows="3" placeholder="Parle-nous un peu de toi..."></textarea><button class="button button-primary" type="submit">Envoyer ma candidature <span>→</span></button><p id="form-message" role="status"></p></form></div></section>
+  </main>
+  <footer><a class="logo" href="#accueil"><span>Y</span>XZ <small>TEAM</small></a><p>© 2024 Yxz Team. Créé pour ceux qui osent.</p><div class="socials"><a href="#rejoindre">Discord</a><a href="#rejoindre">Instagram</a><a href="#rejoindre">TikTok</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
